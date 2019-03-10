@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Javascript Fundamentals</title>
+    <script src="js/app.js"></script>
 </head>
+
 <body>
-    This content is added from my pc
+    <script>
+        function welcome(){
+            alert("Hello World !");
+        }
+    </script>
+    <form action="">
+        <p>
+            <label for="txtName">Name:</label>
+            <input onfocus="alert('Hello I am inline');" type="text" id="txtName">
+        </p>
+        <p>
+            <label for="txtPass">Pass:</label>
+            <input onfocus="welcome5();" type="password" id="txtPass">
+        </p>
+        <p>
+            <button onclick="welcome();">Save</button>
+        </p>
+    </form>
 </body>
+
 </html>
